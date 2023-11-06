@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-dkrc
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-598/maven-hello-world-dkrc@sha256:857853c0830262bb432107a767065ba18dd7b0211e6913953359bbd7eacab826
         name: my-java-quarkus
         ports:
         - containerPort: 8081
